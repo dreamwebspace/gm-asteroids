@@ -13,3 +13,7 @@ if (keyboard_check_pressed(vk_space)) {
 
 }
 move_wrap(true,true,sprite_width/2);
+
+if (speed>6) {
+	speed=6;
+}
