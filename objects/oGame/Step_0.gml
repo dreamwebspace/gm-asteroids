@@ -22,7 +22,8 @@ if (room==rGame) {
 	}
 	
 	if (lives<=0) {
-		wait(1 * 3000000); 
+		var i=0;
+		
 		room_goto(rGameOver);
 	}
 }
