@@ -15,3 +15,15 @@ if (keyboard_check_pressed(vk_enter)) {
 
 
 }
+
+if (room==rGame) {
+	if (score>=1000) {
+		room_goto(rWin);
+	}
+	
+	if (lives<=0) {
+		wait(1 * 3000000); 
+		room_goto(rGameOver);
+	}
+}
+

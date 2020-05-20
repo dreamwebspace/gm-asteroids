@@ -1,3 +1,3 @@
-score=0;
-lives=3;
+score=900;
+lives=1;
 draw_set_font(fText);
