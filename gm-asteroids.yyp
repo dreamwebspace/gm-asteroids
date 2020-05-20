@@ -82,8 +82,16 @@
             "Key": "368f1800-ca03-4b7f-a57f-0398c80652ca",
             "Value": {
                 "id": "0a6035f4-7c55-4b00-bc44-e3165339e41f",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rGame\\rGame.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3f41b602-5363-4bc6-a250-939af2f57991",
+            "Value": {
+                "id": "daeeb944-538d-4c83-8bfe-e170d56bab4e",
+                "resourcePath": "fonts\\fText\\fText.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -127,6 +135,30 @@
             }
         },
         {
+            "Key": "81b9a749-5639-4af0-9245-c21530e70dce",
+            "Value": {
+                "id": "68529408-3feb-4def-9229-424c50bc68bb",
+                "resourcePath": "rooms\\rWin\\rWin.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "82b2d28b-76bd-4d5a-bd8c-30704937c72d",
+            "Value": {
+                "id": "b2c7a5fc-6de8-42ef-8a44-e15105cd6831",
+                "resourcePath": "objects\\oGame\\oGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "89c76d63-168d-4020-8760-c0a661a1fa1a",
+            "Value": {
+                "id": "c7cad8c9-98f2-4233-a4a2-ede9822c6761",
+                "resourcePath": "rooms\\rStart\\rStart.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8e23fcfd-a79f-4f61-89df-087967517a64",
             "Value": {
                 "id": "416b054d-d7c7-4dbf-a4a4-e8b7ce0cf0fe",
@@ -164,6 +196,14 @@
                 "id": "f8323bbb-72a7-4b10-bf1a-32ecf13d0b92",
                 "resourcePath": "views\\b783559d-e6d6-4f0f-9c30-4ed7ea1e88f5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b937f4bc-06a3-4de7-b5bc-1a150e556023",
+            "Value": {
+                "id": "8c6d098b-3b6c-4dd1-8f9c-756322c49ced",
+                "resourcePath": "rooms\\rGameOver\\rGameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -212,6 +252,14 @@
                 "id": "ec1baaca-6c2d-4c6e-97b5-8bb1d335b093",
                 "resourcePath": "objects\\oBullet\\oBullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d116f47d-9d9d-4f4f-af9b-a73546f18b25",
+            "Value": {
+                "id": "b01676d5-3d8f-4868-9548-fed651815f46",
+                "resourcePath": "views\\368f1800-ca03-4b7f-a57f-0398c80652ca-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
