@@ -8,16 +8,16 @@ case rStart:
 	draw_set_halign(fa_center);
 	draw_text_ext_transformed(room_width/2,room_height/6,"ASTEROIDS",1,1000,2,2,0);
 	draw_text(room_width/2,room_height/2.75-10, 
-		"Score 1000 points to win!");
+		"Score 10000 points to win!");
 		
 	draw_text(room_width/2,room_height/2.75+40, 
 		"UP: move");
 			draw_text(room_width/2,room_height/2.75+60, 
 		"LEFT/RIGHT: direction");
 			draw_text(room_width/2,room_height/2.75+80, 
-		"SPACE: shoot");
+		"CTRL: shoot");
 			draw_text(room_width/2,room_height/2.75+120, 
-				">> PRESS ENTER TO START <<");
+		">> PRESS ENTER TO START <<");
 		
 		
 		

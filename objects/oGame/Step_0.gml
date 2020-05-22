@@ -8,16 +8,11 @@ if (keyboard_check_pressed(vk_enter)) {
 		case rGameOver:
 			game_restart();
 			break;
-		
-
 	}
-
-
-
 }
 
 if (room==rGame) {
-	if (score>=1000) {
+	if (score>=10000) {
 		room_goto(rWin);
 	}
 	
