@@ -19,6 +19,8 @@ case rStart:
 		"CTRL: shoot");
 			draw_text(room_width/2,room_height/3+160, 
 		">> PRESS ENTER TO START <<");
+					draw_text(room_width/2,room_height/3+200, 
+		"[F]ullscreen [R]eset [Q]uit");
 	
 	draw_set_halign(fa_left);
 	break;
@@ -35,10 +37,8 @@ case rWin:
 case rGameOver:
 	draw_set_halign(fa_center);
 	draw_text_ext_transformed(room_width/2,room_height/6,"GAME OVER",1,1000,2,2,0);
-	draw_text(room_width/2,room_height/2.75, "FINAL SCORE: "+string(score));
-		
-		draw_text(room_width/2,room_height/1.75, 
-		"PRESS ENTER TO RESTART"
+	draw_text(room_width/2,room_height/3, "FINAL SCORE: "+string(score));
+	draw_text(room_width/2,room_height/2.15, "PRESS ENTER TO RESTART"
 	);
 	draw_set_halign(fa_left);
 
