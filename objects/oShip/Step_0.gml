@@ -9,6 +9,16 @@ if (keyboard_check(vk_up)) {
 	sprite_index=sShipMove;
 	alarm[2]=5;
 }
+if (keyboard_check_pressed(vk_space)) {
+	x=irandom_range(0,room_width);
+	y=irandom_range(0,room_height);
+
+
+	
+	
+}
+
+
 if (keyboard_check_pressed(vk_lcontrol))||(keyboard_check_pressed(vk_rcontrol))  {
 	var inst = instance_create_layer(x, y,"Instances", oBullet);
 	inst.direction = image_angle;

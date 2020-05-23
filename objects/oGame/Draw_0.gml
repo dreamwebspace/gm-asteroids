@@ -4,6 +4,7 @@ case rGame:
 	draw_text(520,18, "LIVES: " + string(lives) );
 	draw_text(520,38, "SPEED: " + string(oAsteroid.speed) );
 	draw_text(520,58, "FPS: " + string(fps) );
+	draw_text(350,450,"[F]ullscreen [R]eset [Q]uit");
 	break;
 
 case rStart:
@@ -19,7 +20,7 @@ case rStart:
 			draw_text(room_width/2,room_height/3+100, 
 		"CTRL: shoot");
 			draw_text(room_width/2,room_height/3+120, 
-		"(SPACE: nothing)");
+		"SPACE: jump");
 			draw_text(room_width/2,room_height/3+180, 
 		">> PRESS ENTER TO START <<");
 					draw_text(room_width/2,room_height/3+230, 
