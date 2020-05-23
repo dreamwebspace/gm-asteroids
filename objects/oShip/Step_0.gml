@@ -6,6 +6,8 @@ if (keyboard_check(vk_right)) {
 }
 if (keyboard_check(vk_up)) {
 	motion_add(image_angle, 0.05);
+	sprite_index=sShipMove;
+	alarm[2]=5;
 }
 if (keyboard_check_pressed(vk_lcontrol))||(keyboard_check_pressed(vk_rcontrol))  {
 	var inst = instance_create_layer(x, y,"Instances", oBullet);

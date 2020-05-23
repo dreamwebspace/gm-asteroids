@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0e604fff-7de0-4331-99ff-747dc1214123",
+            "Value": {
+                "id": "0a58b437-6a6d-44c6-a42e-30484b53a08c",
+                "resourcePath": "sprites\\sShipMove\\sShipMove.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1383f331-8f5d-4796-a759-1a4435f5b3c5",
             "Value": {
                 "id": "d6919417-b67f-479f-a1c5-d39813294f58",
