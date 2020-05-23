@@ -17,9 +17,11 @@ case rStart:
 		"LEFT/RIGHT: direction");
 			draw_text(room_width/2,room_height/3+100, 
 		"CTRL: shoot");
-			draw_text(room_width/2,room_height/3+160, 
+			draw_text(room_width/2,room_height/3+120, 
+		"(SPACE: nothing)");
+			draw_text(room_width/2,room_height/3+180, 
 		">> PRESS ENTER TO START <<");
-					draw_text(room_width/2,room_height/3+200, 
+					draw_text(room_width/2,room_height/3+230, 
 		"[F]ullscreen [R]eset [Q]uit");
 	
 	draw_set_halign(fa_left);
