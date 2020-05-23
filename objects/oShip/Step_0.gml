@@ -14,6 +14,6 @@ if (keyboard_check_pressed(vk_lcontrol))||(keyboard_check_pressed(vk_rcontrol)) 
 }
 move_wrap(true,true,sprite_width/2);
 
-if (speed>6) {
-	speed=6;
+if (speed>6.5) {
+	speed=6.5;
 }

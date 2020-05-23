@@ -1,7 +1,8 @@
 switch(room) {
 case rGame:
 	draw_text(20,18, "SCORE: " + string(score) );
-	draw_text(550,18, "LIVES: " + string(lives) );
+	draw_text(520,18, "LIVES: " + string(lives) );
+	draw_text(520,38, "SPEED: " + string(oAsteroid.speed) );
 	break;
 
 case rStart:
