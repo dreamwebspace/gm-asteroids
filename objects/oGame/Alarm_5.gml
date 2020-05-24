@@ -1,7 +1,6 @@
-//direction = irandom_range(0,359);
-//instance_destroy();
-if (oGame.ufo>=1) {
-oUFO.direction += irandom_range(15,45);
-
+if (ufo>=1)
+{
+oUFO.direction += irandom_range(-25,25);
 }
-alarm[5]= 5*room_speed;
+alarm[5] = room_speed*4;
+	

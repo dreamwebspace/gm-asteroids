@@ -1,4 +1,5 @@
 lives-=1;
+oGame.ufo=0;
 
 with(oGame) {
 	alarm[1] = room_speed*2;
