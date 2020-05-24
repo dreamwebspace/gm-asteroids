@@ -17,7 +17,7 @@ if (room==rGame) {
 	}
 	
 	if (lives<=0) {
-	//	var i=0;
+
 		
 		room_goto(rGameOver);
 	}
