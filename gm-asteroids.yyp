@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "245fc414-9bdb-4d2c-9868-680f84205042",
+            "Value": {
+                "id": "7882fad7-3775-40f6-bfd4-f18012f5654a",
+                "resourcePath": "objects\\oBulletEnemy\\oBulletEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "26f77878-34e4-417b-8ff7-b1c0e1607a5f",
             "Value": {
                 "id": "143b0498-16be-4503-83ee-59a0012dc3c7",
