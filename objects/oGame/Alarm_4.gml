@@ -15,3 +15,4 @@ instance_create_layer(xx,yy,"Instances",oUFO);
 alarm[4] = 25*room_speed;
 
 
+

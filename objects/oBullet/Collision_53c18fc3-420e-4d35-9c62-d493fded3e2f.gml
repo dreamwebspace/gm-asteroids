@@ -4,7 +4,7 @@ instance_destroy();
 with (other) {
 	instance_destroy();
 }
-repeat(15) {
+repeat(10) {
 	
 instance_create_layer(x,y,"Instances",oDebris);
 }
