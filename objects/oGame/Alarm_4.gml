@@ -12,6 +12,6 @@ if (choose(0,1)==0) {
 
 instance_create_layer(xx,yy,"Instances",oUFO);
 
-alarm[4] = 10*room_speed;
+alarm[4] = 25*room_speed;
 
 
