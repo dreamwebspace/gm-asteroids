@@ -12,7 +12,7 @@ if (room=rGame) {
 
 if (room=rGame) {
 
-	alarm[4] = room_speed*3;
+	alarm[4] = room_speed*59;
 	alarm[5] = room_speed*4;
 	
 }
