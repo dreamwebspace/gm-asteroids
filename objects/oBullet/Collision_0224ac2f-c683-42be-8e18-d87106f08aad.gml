@@ -2,7 +2,7 @@ score+=50;
 
 
 instance_destroy();
-
+audio_play_sound(crash,1,false);
 
 with (other) {
 	instance_destroy();
