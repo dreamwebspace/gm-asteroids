@@ -1,7 +1,7 @@
 oGame.ufo=0;
-//if (audio_is_playing(ufo)) {
 	audio_stop_all();
-//}
+
+
 
 
 //if (room=rGame) {
@@ -17,7 +17,7 @@ oGame.ufo=0;
 if (room=rGame) {
 
 	alarm[4] = room_speed*5;
-	alarm[5] = room_speed*4;
+	alarm[5] = room_speed*5;
 	
 }
 

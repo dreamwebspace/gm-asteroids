@@ -17,7 +17,8 @@ if (room==rGame) {
 	}
 	
 	if (lives<=0) {
-		room_goto(rGameOver);
+	room_goto(rGameOver);
+	
 
 	}
 }
