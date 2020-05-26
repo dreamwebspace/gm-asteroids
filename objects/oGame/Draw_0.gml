@@ -2,7 +2,7 @@ switch(room) {
 case rGame:
 	draw_text(20,18, "SCORE: " + string(score) );
 	draw_text(520,18, "LIVES: " + string(lives) );
-//	draw_text(520,38, "SPEED: " + string(oAsteroid.speed) );
+	draw_text(520,38, "SPEED: " + string(oAsteroid.speed) );
 	draw_text(520,58, "FPS: " + string(fps) );
 	draw_text(520,78, "UFOs: " + string(oGame.ufo) );
 	

@@ -16,10 +16,5 @@ if (room==rGame) {
 		room_goto(rWin);
 	}
 	
-	if (lives<=0) {
-	room_goto(rGameOver);
-	
-
-	}
 }
 
