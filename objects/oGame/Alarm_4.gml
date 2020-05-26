@@ -11,7 +11,7 @@ if (choose(0,1)==0) {
 oGame.ufo +=1;
 instance_create_layer(xx,yy,"Instances",oUFO);
 
-alarm[4] = 59*room_speed;
+alarm[4] = irandom_range(20,40)*room_speed;
 
 
 

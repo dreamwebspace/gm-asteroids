@@ -1,4 +1,4 @@
-score+=50;
+score+=10;
 
 
 instance_destroy();

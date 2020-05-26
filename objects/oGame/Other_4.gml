@@ -16,7 +16,7 @@ if (room=rGame) {
 
 if (room=rGame) {
 
-	alarm[4] = room_speed*59;
+	alarm[4] = room_speed*irandom_range(20,40);
 	alarm[5] = room_speed*3;
 	
 }
