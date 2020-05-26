@@ -1,4 +1,5 @@
-ufo=0;
+oGame.ufo=0;
+
 
 if (room=rGame) {
 	repeat(3) {

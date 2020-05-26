@@ -1,4 +1,4 @@
-if (ufo>=1)
+if (oGame.ufo>=1)
 {
 oUFO.direction += irandom_range(-25,25);
 }
