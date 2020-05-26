@@ -2,7 +2,7 @@ move_wrap(true,true,sprite_width/2);
 
 if (canShoot) {
     canShoot = false;
-    alarm[6] = 15;
+    alarm[6] = 12;
 
 var inst = instance_create_layer(x, y,"Instances", oBulletEnemy);
 inst.direction = irandom_range(0,359);

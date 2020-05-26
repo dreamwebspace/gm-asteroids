@@ -1,6 +1,6 @@
 score=0;
 lives=3;
-var oGame.ufo=0;
+//var oGame.ufo=0;
 
 draw_set_font(fText);
 

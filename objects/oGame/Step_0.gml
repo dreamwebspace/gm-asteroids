@@ -6,7 +6,7 @@ if (keyboard_check_pressed(vk_enter)) {
 			
 		case rWin:
 		case rGameOver:
-			game_restart();
+			game_restart(); 
 			break;
 	}
 }
@@ -17,9 +17,8 @@ if (room==rGame) {
 	}
 	
 	if (lives<=0) {
-
-		
 		room_goto(rGameOver);
+
 	}
 }
 
