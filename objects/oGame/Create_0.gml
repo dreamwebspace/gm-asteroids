@@ -1,5 +1,5 @@
 score=0;
-lives=2;
+lives=3;
 
 
 draw_set_font(fText);
