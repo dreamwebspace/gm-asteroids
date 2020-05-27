@@ -21,7 +21,7 @@ case rStart:
 			draw_text(room_width/2,room_height/3+80, 
 		"CTRL: shoot");
 			draw_text(room_width/2,room_height/3+100, 
-		"SPACE: jump");
+		"SPACE: hyperspace");
 					draw_text(room_width/2,room_height/3+140, 
 
 						"Q: quit");
