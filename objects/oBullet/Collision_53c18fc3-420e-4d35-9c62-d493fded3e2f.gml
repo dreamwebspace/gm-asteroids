@@ -1,4 +1,4 @@
-score+=500;
+score+=100;
 oGame.ufo-=1;
 
 
